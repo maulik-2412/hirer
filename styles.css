@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body{
+    background-color: #439A97;
+}
+
+h2{
+    padding: 2% 0;
+    color: #CBEDD5;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Navigation Bar */
+.brand-logo{
+    width:3rem;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+
+
+.navbar-brand{
+    font-size: 300%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-nav .nav-link {
+    color:#439A97;
+}
+
+.nav-link{
+    font-size: 1.7rem;
+    font-family:'Source Code Pro', monospace;
+}
+ /*  Mobile Navigation Bar */
+ .navbar.navbar-expand-lg{
+    background-color: #CBEDD5;
+ }
+ 
+ .menu-icon{
+    width:60%;
+ }
+
+ .navbar-toggler{
+    padding:0.25rem 0.25rem;
+ }
+
+ .navbar-toggler:focus{
+    box-shadow: none;
+ }
+
+ .button-border{
+    box-shadow: 0 0 0 0.25rem !important;
+ }
+
+ .navbar-collapse{
+    text-align: center;
+ }
+
+ .login-nav{
+    padding:2% 0 4%;
+ }
+
+ .login-btn{
+    margin:0 1%;
+    font-size: 1.5rem;
+    background-color: #439A97;
+    color: #CBEDD5;
+    font-family:'Source Code Pro', monospace;
+ }
+ /* Desktop Navigation Bar */
+ @media screen and (min-width:991px){
+    .login-nav{
+        display: flex;
+        width:250px;
+       
+    }
+    .login-btn{
+        margin: 2%;
+        font-size: 1rem;
+    }
+    .desktop-navitem{
+        margin-top: 2.5%;
+        margin-right:7px;
+    }
+    .nav-link{
+        font-size: 1.2rem;
+        
+    }
+ }
+
+ .desktop-nav-ul{
+    margin-left: auto;
+ }
+
+
+
+/* Home Section */
+.home-page{
+    background-image: url(media/home-page.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: fit-content;
+    width: 100%;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.home-heading{
+    padding: 5%;
+    color: #000;
+    font-family: 'Noto Serif Vithkuqi', serif;
+}
+
+.input-group{
+   margin: auto;
+   width: 90%;
+   font-family:'Source Code Pro', monospace;
+}
+
+.home-rec-btn{
+    margin-bottom: 6%;
+    font-size: 1.3rem;
+    font-family:'Source Code Pro', monospace;
+}
+.btn-primary{
+    background-color: #439A97;
+}
+
+@media screen and (min-width:760px) {
+    .input-group{
+        width:70%;
+    }
+    .home-rec-btn{
+        font-size: 1.5rem;
+    }
+    .form-select{
+        font-size: 1.5rem;
+    }
+    .home-src-btn{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:1050px) {
+    .input-group{
+        width:60%;
+    }
+    .home-rec-btn{
+        font-size: 1.7rem;
+    }
+}
+
+
+/* About Section */
+
+.about-section{
+    text-align: center;
+    background: rgb(151,222,206);
+    background: linear-gradient(320deg, rgba(98,182,183,1) 49%, rgba(67,154,151,1) 49%);
+    padding: 7% 15%;
+}
+
+.about-images{
+    width: 50%;
+}
+@media screen and (min-width:850px) {
+    .about-images{
+        width:40%;
+    }
+    
+}
+@media screen and (max-width:850px){
+    .p-to-remove{
+        display: none;
+    }
+}
+.about-features{
+    text-align: left;
+    width:90%;
+    margin: auto;
+    margin-left:10% ;
+    padding:5% 0;
+    
+}
+.features-info{
+    width: 80%;
+    font-size: 1.4rem;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Login Section */
+.login-section{
+    text-align: center;
+    padding: 7% 15%;
+    background-image: url(media/join-us-section.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.login-sec-btn{
+    font-size: 2rem;
+    margin: 4%;
+    padding:1% 4%;
+    color:#CBEDD5;
+    font-family:'Source Code Pro', monospace;
+}
+
+/* Contact Us */
+.contact-us{
+    text-align: center;
+    background-color: #000000;
+}
+
+.contact-us-symbols{
+    color:#fff;
+    margin: 1%;
+}
+.fa-2x{
+    margin-bottom: 3%;
+}
+
